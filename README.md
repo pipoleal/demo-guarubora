@@ -8,7 +8,7 @@ HTML, CSS e JS puro, sem build. Feito para proposta comercial.
 - **Dados** (nome, WhatsApp, telefone, endereço, horários, preços, políticas, fotos): objeto `CONFIG` no início do `<script>`, no final do `index.html`.
 - **WhatsApp**: hoje está o fixo da recepção (`551238671770`). Trocar pelo celular do hotel em `CONFIG.whatsapp`.
 - **Cores**: variáveis no `:root` do CSS (`--noite`, `--mar`, `--manga`, `--nevoa`).
-- **Fontes**: Fraunces (títulos) + Figtree (texto), do Google Fonts.
+- **Fontes**: Fraunces (títulos) + Figtree (texto), do Google Fonts, hospedadas em `fonts/` (só caracteres latinos) e pré-carregadas — carrega mais rápido no celular do que buscar no Google.
 - **Fora do CONFIG** (ficam fixos no `<head>`, porque o WhatsApp e o Google não rodam JS):
   tags Open Graph (`og:*`) e o JSON-LD `LodgingBusiness`. Se o domínio mudar, atualize as URLs `https://demo-guarubora.vercel.app/` nos dois.
 
